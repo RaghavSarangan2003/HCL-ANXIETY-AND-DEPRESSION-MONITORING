@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuraSync Feel Good Gallery</title>
+    <link rel="stylesheet" href="/css/gallery.css">
+</head>
+<body>
+
+    <div class="container">
+        <aside class="sidebar">
+            <nav>
+              <div class="logo">AuraSync</div>
+                <ul>
+                    <li><a href="mentalhealthchart.html">Mental Health Chart</a></li>
+                    <li><a href="journals.html">Journals</a></li>
+                    <li><a class="feelgoodlibrary" href="#">Feel Good Library</a></li>
+                    <li><a href="index.html">Logout</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="content">
+          <div class="gallery">
+            <div class="upload-container">
+                <input type="file" id="fileInput" accept="image/*" multiple>
+                <h1 style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: rgb(21, 33, 89);
+                margin-bottom: 50px;">Feel Good Gallery</h1>
+                <label for="fileInput" class="upload-button">Upload Images</label>
+            </div>
+            <div class="image-container" id="imageContainer">
+                <!-- Existing images and uploaded images will be displayed here -->
+                <img class="gallery-image" src="/images/Hapypic1.jpg" alt="Image 1">
+                <img class="gallery-image" src="/images/Hapypic2.jpg" alt="Image 2">
+                <img class="gallery-image" src="/images/Hapypic3.jpg" alt="Image 3">
+            </div>
+        </div>
+        <div class="panel">
+          <h2 class="content-heading">Welcome</h2>
+          <p>Discover a world of positivity and inspiration through captivating images. Our gallery is a place to find joy, share moments of happiness, and uplift your spirits. Join us in celebrating life's feel-good moments</p>
+      </div>
+      <div class="panel">
+        <h2 class="content-heading">Upload Your Feel-Good Moments</h2>
+        <p>Feel Good Gallery is all about collective positivity. Share your moments of joy, laughter, and inspiration and view them whenever you feel low.</p>
+    </div>
+        <div class="modal" id="imageModal">
+            <span class="close-button" id="closeButton">&times;</span>
+            <img src="" alt="Image" id="modalImage">
+            <p id="uploadDate"></p>
+        </div>
+        <script src="/js/gallery.js"></script>
+        </main>
+    </div>
+
+</body>
+</html>

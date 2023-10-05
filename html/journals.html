@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuraSync journals</title>
+    <link rel="stylesheet" href="/css/journals.css">
+    <link rel="stylesheet" >
+</head>
+<body>
+
+    <div class="container">
+        <aside class="sidebar">
+            <nav>
+              <div class="logo">AuraSync</div>
+                <ul>
+                    <li><a href="mentalhealthchart.html">Mental Health Chart</a></li>
+                    <li><a class="journalbtn" href="#">Journals</a></li>
+                    <li><a href="gallery.html">Feel Good Library</a></li>
+                    <li><a href="index.html">Logout</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="content">
+            <div class="journal-container">
+                <h1 style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: rgb(21, 33, 89);">Your Journaling Centre</h1>
+                <div class="journal-entry">
+                    <input type="text" id="journalTitle" placeholder="Enter journal title...">
+                    <textarea id="journalText" class="text-book" placeholder="Write your journal entry here..."></textarea>
+                    <button class="entry-button" id="addEntryButton">Add Entry</button>
+                </div>
+                <div class="journal-entries" id="journalEntries">
+            
+                </div>
+                <div class="panel">
+                    <h2 class="content-heading">Private Space</h2>
+                    <p>Your journal is your sacred haven. Write with confidence, knowing that your thoughts are secure and private.</p>
+                </div>
+                <div class="panel">
+                    <h2 class="content-heading">Reflect and Release</h2>
+                    <p>Pour your emotions onto the digital pages. Journaling is a powerful way to reflect on your experiences, release pent-up feelings, and gain clarity.</p>
+                </div>
+                <div class="panel">
+                    <h2 class="content-heading">Organization</h2>
+                    <p> Stay organized with date-stamped entries. Easily browse through your past thoughts and revisit moments of personal growth.</p>
+                </div>
+            </div>
+            <script src="/js/journals.js"></script>
+        </main>
+    </div>
+
+</body>
+</html>
