@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuraSync Moodchart</title>
+    <link rel="stylesheet" href="/css/mentalhealthchart.css">
+</head>
+<body>
+
+    <div class="container">
+        <aside class="sidebar">
+            <nav>
+              <div class="logo">AuraSync</div>
+                <ul>
+                    <li><a class="mentalhealthbutton" href="#">Mental Health Chart</a></li>
+                    <li><a href="journals.html">Journals</a></li>
+                    <li><a href="gallery.html">Feel Good Library</a></li>
+                    <li><a href="index.html">Logout</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="content">
+          <h1 style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: rgb(21, 33, 89);
+                padding-left: 40%;
+                margin-bottom: 50px;">Mood Chart</h1>
+          <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+          <link rel="stylesheet" href="/css/graph.css">
+          
+          <div class="graph-container">
+            <canvas id="line-chart"></canvas>
+          </div>
+          <div class="user-input-buttons">
+            <button class="emobtn" id="happy-button">Happy</button>
+            <button class="emobtn" id="slightly-happy-button">Slightly Happy</button>
+            <button class="emobtn" id="neutral-button">Neutral</button>
+            <button class="emobtn" id="slightly-sad-button">Slightly Sad</button>
+            <button class="emobtn" id="sad-button">Sad</button>
+          </div>
+          <div class="chart-content">
+            <div class="panel">
+              <h2 class="content-heading">Log Your Moods</h2>
+              <p>Easily capture your feelings each day through a user-friendly interface. Select from a range of emotions to express yourself accurately.</p>
+          </div>
+          <div class="panel">
+            <h2 class="content-heading">Visualize Trends</h2>
+            <p>Watch your mood fluctuations come to life with our interactive visual mood chart. Identify patterns, highs, and lows over time, empowering you to make informed decisions regarding your mental health.</p>
+        </div>
+          </div>
+          <script src="/js/graph.js"></script>
+        </main>
+    </div>
+
+</body>
+</html>

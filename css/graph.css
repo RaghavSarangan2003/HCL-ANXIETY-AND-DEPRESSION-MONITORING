@@ -1,0 +1,51 @@
+/* Style the graph container */
+.graph-container {
+  width: 100%;
+  height: 100%;
+  max-width: 600px;
+  max-height: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the y-axis labels with emojis */
+.y-axis-label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Style the x-axis labels */
+.x-axis-label {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Style the graph line for increasing values (green) */
+.increasing-line {
+  stroke: #00cc00; /* Green color */
+  stroke-width: 2;
+  fill: none;
+}
+
+/* Style the graph line for decreasing values (red) */
+.decreasing-line {
+  stroke: #ff0000; /* Red color */
+  stroke-width: 2;
+  fill: none;
+}
+
+/* Style the points on the graph */
+.point {
+  fill: #333; /* Dark gray color */
+}
+
+/* Style the tooltip for data points */
+.tooltip {
+  background-color: #333;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  position: absolute;
+  display: none;
+}
