@@ -22,7 +22,7 @@ AuraSync is a web-based application for tracking your emotional well-being and p
 To use AuraSync, follow these steps:
 
 1. Clone this repository to your local machine.
-2. Open the `index.html` file in your web browser.
+2. Open the `index.html` file in your web browser or host it in a web server to access AuraSync.
 
 No additional setup is required.
 
